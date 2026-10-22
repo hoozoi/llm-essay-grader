@@ -1,0 +1,22 @@
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:3036: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+                          주제    n    유형  표준편차  분포다양성  길이QWK  표면특징QWK    여지  지문베끼기_점수상관  지문단어  글단어중앙
+ A Cowboy Who Rode the Waves 2175    논증  0.82   1.75   0.44     0.51  0.23       -0.13   674    263
+             Car-free cities 1959 설명/기타  1.06   2.11   0.62     0.68  0.07       -0.21  2159    430
+            The Face on Mars 3015    논증  0.98   1.99   0.66     0.70  0.04       -0.01   770    295
+Does the electoral college w 2046    논증  1.15   2.23   0.67     0.72  0.03       -0.21  2245    374
+             Exploring Venus 4480    논증  1.08   2.12   0.71     0.74  0.00       -0.09   936    312
+ Facial action coding system 4883 설명/기타  1.03   2.07   0.74     0.76 -0.01         NaN     2    333
+             Driverless cars 6170    논증  0.95   1.96   0.73     0.77 -0.02        0.01  1120    372
+
+여지 = 사람끼리 QWK(0.745) - 표면특징 기준선. 클수록 AI가 '내용 판단'으로 이겨야 할 공간이 큼
+분포다양성 = 점수 분포 엔트로피(최대 2.58). 클수록 점수가 고르게 퍼짐
+
+[공정한 비교] 사람 점수 200개만으로 표면특징 모델을 학습 → 나머지 글에서 QWK (20회 평균)
+  Does the electoral college wor   QWK 0.708 (±0.010)
+  Car-free cities                  QWK 0.667 (±0.009)
+  The Face on Mars                 QWK 0.682 (±0.012)
+  Exploring Venus                  QWK 0.726 (±0.009)
+  Driverless cars                  QWK 0.753 (±0.010)

@@ -1,0 +1,17 @@
+# 원본 데이터 (git에 올리지 않음)
+data/raw/
+data/processed/
+data/asap/
+data/*.csv
+
+# API 키
+.env
+
+# 파이썬 부산물
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+CLAUDE.md

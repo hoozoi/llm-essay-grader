@@ -1,0 +1,17 @@
+공식 루브릭(v0) 채점 vs 기준선 — 주제별 100개 (점수 비율 유지 표본)
+
+[Car-free cities] n=100 (형식오류 0)
+  AI(v0) QWK 0.480 | 순위 보정 시 0.492 | 상관 0.595 | 정확 일치 40% | ±1 일치 93% | 평균 AI 2.89 vs 사람 3.12
+  기준선: 길이만 QWK 0.648 | 표면특징(200개 학습) QWK 0.684
+  AI 점수와 글 길이의 상관 0.50  (사람 점수와 길이의 상관 0.72)
+  AI 점수 분포 {np.int64(1): np.int64(2), np.int64(2): np.int64(17), np.int64(3): np.int64(71), np.int64(4): np.int64(10)} / 사람 {np.int64(1): np.int64(7), np.int64(2): np.int64(21), np.int64(3): np.int64(35), np.int64(4): np.int64(28), np.int64(5): np.int64(8), np.int64(6): np.int64(1)}
+[Does the electoral college work?] n=100 (형식오류 0)
+  AI(v0) QWK 0.367 | 순위 보정 시 0.457 | 상관 0.564 | 정확 일치 35% | ±1 일치 84% | 평균 AI 2.42 vs 사람 3.02
+  기준선: 길이만 QWK 0.619 | 표면특징(200개 학습) QWK 0.724
+  AI 점수와 글 길이의 상관 0.46  (사람 점수와 길이의 상관 0.68)
+  AI 점수 분포 {np.int64(1): np.int64(3), np.int64(2): np.int64(53), np.int64(3): np.int64(43), np.int64(4): np.int64(1)} / 사람 {np.int64(1): np.int64(9), np.int64(2): np.int64(25), np.int64(3): np.int64(33), np.int64(4): np.int64(23), np.int64(5): np.int64(8), np.int64(6): np.int64(2)}
+[The Face on Mars] n=99 (형식오류 0)
+  AI(v0) QWK 0.439 | 순위 보정 시 0.455 | 상관 0.483 | 정확 일치 51% | ±1 일치 91% | 평균 AI 2.57 vs 사람 2.74
+  기준선: 길이만 QWK 0.657 | 표면특징(200개 학습) QWK 0.677
+  AI 점수와 글 길이의 상관 0.18  (사람 점수와 길이의 상관 0.70)
+  AI 점수 분포 {np.int64(1): np.int64(6), np.int64(2): np.int64(35), np.int64(3): np.int64(54), np.int64(4): np.int64(4)} / 사람 {np.int64(1): np.int64(8), np.int64(2): np.int64(35), np.int64(3): np.int64(36), np.int64(4): np.int64(16), np.int64(5): np.int64(3), np.int64(6): np.int64(1)}

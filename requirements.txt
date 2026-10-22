@@ -1,0 +1,7 @@
+anthropic>=2.0
+python-dotenv
+pandas
+numpy
+scikit-learn
+matplotlib
+playwright
